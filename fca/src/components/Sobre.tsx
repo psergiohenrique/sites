@@ -3,7 +3,7 @@ export default function Sobre() {
     <section className="sobre" id="sobre">
       <div className="sobre-img">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/assets/fca-service-luggage.jpg" alt="Cuidado com a bagagem" />
+        <img src="/assets/fca-service-luggage.webp" alt="Cuidado com a bagagem" />
       </div>
       <div>
         <p className="eyebrow">Sobre a FCA</p>

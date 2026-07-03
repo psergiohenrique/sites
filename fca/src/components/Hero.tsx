@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="hero">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/assets/fca-hero-door.jpg"
+        src="/assets/fca-hero-door.webp"
         alt="Transporte executivo FCA"
         className="hero-img"
       />
