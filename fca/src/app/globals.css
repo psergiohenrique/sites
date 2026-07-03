@@ -83,7 +83,7 @@ img { display: block; max-width: 100%; }
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
 }
-.nav-logo { height: 40px; width: auto; object-fit: contain; }
+.nav-logo { height: 64px; width: auto; object-fit: contain; }
 .nav-links {
   display: flex;
   gap: 36px;
@@ -98,7 +98,7 @@ img { display: block; max-width: 100%; }
 
 @media (max-width: 760px) {
   .nav { padding: 14px 5vw; }
-  .nav-logo { height: 32px; }
+  .nav-logo { height: 48px; }
   .nav-links { display: none; }
 }
 
@@ -360,4 +360,6 @@ footer {
   flex-wrap: wrap;
   gap: 16px;
 }
-.footer-logo { height: 28px; width: auto; opacity: 0.75; object-fit: contain; }
+.footer-logo { height: 44px; width: auto; opacity: 0.75; object-fit: contain; }
+.footer-credit { color: var(--text-muted); }
+.footer-credit a { color: var(--gold); font-weight: 600; text-decoration: underline; }
