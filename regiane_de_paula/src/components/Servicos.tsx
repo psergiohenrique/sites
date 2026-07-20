@@ -1,3 +1,5 @@
+import { WHATSAPP_URL } from "@/lib/whatsapp";
+
 const SERVICOS = [
   {
     title: "Psicoterapia Clínica – TCC",
@@ -27,29 +29,33 @@ const SERVICOS = [
 
 export default function Servicos() {
   return (
-    <section className="section section-alt" id="servicos">
-      <div className="wrap">
-        <div className="section-head">
-          <p className="eyebrow">Serviços</p>
-          <h2>Áreas de atuação</h2>
-          <p>
-            Atendo adultos e idosos. Acredito que o cuidado em psicologia
-            funciona melhor quando é fundamentado em evidências científicas
-            e, ao mesmo tempo, adaptado à realidade de quem estou atendendo.
-          </p>
-        </div>
-
-        <div className="servicos-full-list">
-          {SERVICOS.map((s) => (
-            <div className="servico-full-card" key={s.title}>
-              <h3>{s.title}</h3>
-              {s.paragraphs.map((p, i) => (
-                <p key={i}>{p}</p>
-              ))}
-            </div>
-          ))}
-        </div>
+    <>
+      <div className="section-head">
+        <p className="eyebrow">Serviços</p>
+        <h1>Áreas de atuação</h1>
+        <p>
+          Atendo adultos e idosos. Acredito que o cuidado em psicologia
+          funciona melhor quando é fundamentado em evidências científicas
+          e, ao mesmo tempo, adaptado à realidade de quem estou atendendo.
+        </p>
       </div>
-    </section>
+
+      <div className="servicos-full-list">
+        {SERVICOS.map((s) => (
+          <div className="servico-full-card" key={s.title}>
+            <h2>{s.title}</h2>
+            {s.paragraphs.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+          </div>
+        ))}
+      </div>
+
+      <div>
+        <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+          Entre em contato
+        </a>
+      </div>
+    </>
   );
 }

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PREVIEWS = [
   {
     title: "Psicoterapia Clínica — TCC",
@@ -30,7 +32,7 @@ export default function ServicosPrevia() {
             <div className="servico-previa-card" key={s.title}>
               <h3>{s.title}</h3>
               <p>{s.tagline}</p>
-              <a href="#servicos">Saiba mais →</a>
+              <Link href="/servicos">Saiba mais →</Link>
             </div>
           ))}
         </div>

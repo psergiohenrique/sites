@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { WHATSAPP_URL } from "@/lib/whatsapp";
 
 const LINKS = [
-  { href: "#quem-sou-eu", label: "Quem sou eu" },
-  { href: "#servicos", label: "Serviços" },
-  { href: "#contato", label: "Contato" },
+  { href: "/quem-sou-eu", label: "Quem sou eu" },
+  { href: "/servicos", label: "Serviços" },
+  { href: "/#contato", label: "Contato" },
 ];
 
 export default function Nav() {
@@ -27,7 +28,7 @@ export default function Nav() {
         <ul className="nav-links">
           {LINKS.map((l) => (
             <li key={l.href}>
-              <a href={l.href}>{l.label}</a>
+              <Link href={l.href}>{l.label}</Link>
             </li>
           ))}
         </ul>
@@ -51,9 +52,9 @@ export default function Nav() {
       {menuOpen && (
         <div className="nav-mobile">
           {LINKS.map((l) => (
-            <a key={l.href} href={l.href} onClick={() => setMenuOpen(false)}>
+            <Link key={l.href} href={l.href} onClick={() => setMenuOpen(false)}>
               {l.label}
-            </a>
+            </Link>
           ))}
           <a
             href={WHATSAPP_URL}
