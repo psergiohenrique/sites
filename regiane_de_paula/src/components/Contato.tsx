@@ -19,10 +19,10 @@ export default function Contato() {
               <span className="icon">📱</span>
               WhatsApp — 19 99902-2125
             </a>
-            <div className="contato-link outline muted">
+            <a href="mailto:contato@rp-psicologia.com.br" className="contato-link outline">
               <span className="icon">✉️</span>
-              <span>E-mail em breve</span>
-            </div>
+              contato@rp-psicologia.com.br
+            </a>
             <a
               href="https://instagram.com/psico.regianedpaula"
               target="_blank"

@@ -6,6 +6,7 @@
    ───────────────────────────────────────────────────────────── */
 
 :root {
+  color-scheme: light;
   --bg:         #F5EFE3;
   --bg-alt:     #EDE3D2;
   --text:       #4A3225;
@@ -153,22 +154,77 @@ img { display: block; max-width: 100%; }
   gap: 40px;
   align-items: center;
 }
-.hero-copy { flex: 2 1 480px; min-width: 280px; display: flex; flex-direction: column; gap: 22px; }
-.hero-quote {
+.hero-copy { flex: 1 1 320px; min-width: 280px; display: flex; flex-direction: column; gap: 18px; }
+.hero-title { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: clamp(30px, 4.5vw, 46px); line-height: 1.15; color: var(--text); }
+.hero-lead { margin: 0; font-size: 18px; line-height: 1.6; color: var(--text); max-width: 440px; }
+.hero-rule { height: 1px; background: var(--border); margin: 6px 0; }
+.hero-copy p.body, .reflexao-inner p.body { margin: 0; font-size: 16px; line-height: 1.75; color: var(--text); }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 8px; }
+.hero-figure { flex: 1 1 260px; min-width: 220px; max-width: 360px; }
+.hero-photo-frame {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 24px;
+  overflow: hidden;
+  background: linear-gradient(160deg, var(--tan) 0%, var(--bg-alt) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-photo-frame img { width: 100%; height: 100%; object-fit: cover; }
+.hero-photo-frame .placeholder { font-size: 13px; color: var(--text-muted); text-align: center; padding: 0 20px; }
+
+/* ── Reflexão ────────────────────────────────────────────── */
+.reflexao-inner { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+.reflexao-quote {
   margin: 0;
   font-family: var(--f-display);
   font-style: italic;
   font-weight: 500;
-  font-size: clamp(22px, 3.4vw, 32px);
-  line-height: 1.4;
+  font-size: clamp(20px, 3vw, 26px);
+  line-height: 1.45;
   color: var(--wine);
 }
-.hero-quote-credit { margin: 0; font-size: 13px; color: var(--text-muted); }
-.hero-rule { height: 1px; background: var(--border); margin: 6px 0; }
-.hero-copy p.body { margin: 0; font-size: 16.5px; line-height: 1.75; color: var(--text); }
-.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px; }
-.hero-figure { flex: 1 1 240px; min-width: 200px; max-width: 340px; display: flex; justify-content: center; }
-.hero-figure img { width: 100%; max-width: 300px; height: auto; border-radius: 50%; }
+.reflexao-credit { margin: 0; font-size: 13px; color: var(--text-muted); }
+
+/* ── Credenciais ─────────────────────────────────────────── */
+.credenciais-inner { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center; }
+.credenciais-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.credenciais-tags span { background: var(--tan); color: var(--text); font-size: 14px; font-weight: 600; padding: 10px 20px; border-radius: 100px; }
+
+/* ── Serviços prévia ─────────────────────────────────────── */
+.servicos-previa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.servico-previa-card {
+  background: var(--bg);
+  border-radius: 18px;
+  padding: 30px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.servico-previa-card h3 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: 19px; color: var(--text); }
+.servico-previa-card p { margin: 0; font-size: 14.5px; line-height: 1.6; color: var(--text); flex: 1; }
+.servico-previa-card a { font-size: 14px; font-weight: 600; color: var(--wine); }
+
+/* ── CTA final ───────────────────────────────────────────── */
+.cta-final { background: var(--green); padding: 64px 20px; }
+.cta-final-inner { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 22px; text-align: center; }
+.cta-final-quote {
+  margin: 0;
+  font-family: var(--f-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(20px, 3vw, 26px);
+  line-height: 1.4;
+  color: var(--bg);
+}
+.btn-cta-final { background: var(--bg); color: var(--green); padding: 15px 28px; }
 
 @media (max-width: 760px) {
   .hero { padding: 40px 20px 48px; }
@@ -209,62 +265,19 @@ img { display: block; max-width: 100%; }
 .sobre-copy { flex: 2 1 420px; min-width: 280px; display: flex; flex-direction: column; gap: 18px; }
 .sobre-copy h2 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: clamp(26px, 3.6vw, 36px); color: var(--text); }
 .sobre-copy p { margin: 0; font-size: 16px; line-height: 1.75; color: var(--text); }
-.sobre-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
-.sobre-tags span {
-  background: var(--tan);
-  color: var(--text);
-  font-size: 13px;
-  font-weight: 600;
-  padding: 8px 16px;
-  border-radius: 100px;
-}
 
-/* ── Serviços ────────────────────────────────────────────── */
-.servicos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 22px;
-  max-width: var(--maxw);
-  margin: 0 auto;
-}
-.servico-card {
-  background: var(--bg-alt);
-  border-radius: 18px;
-  padding: 30px 26px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.servico-card .dot { width: 46px; height: 46px; border-radius: 50%; }
-.servico-card h3 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: 19px; color: var(--text); }
-.servico-card p { margin: 0; font-size: 14.5px; line-height: 1.65; color: var(--text); }
-
-/* ── Depoimentos ─────────────────────────────────────────── */
-.depoimentos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 22px;
-  max-width: var(--maxw);
-  margin: 0 auto;
-}
-.depoimento-card {
+/* ── Serviços completo ───────────────────────────────────── */
+.servicos-full-list { display: flex; flex-direction: column; gap: 22px; max-width: var(--maxw); margin: 0 auto; }
+.servico-full-card {
   background: var(--bg);
   border-radius: 18px;
-  padding: 28px 26px;
+  padding: 32px 28px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
 }
-.depoimento-card p { margin: 0; font-family: var(--f-display); font-style: italic; font-size: 15.5px; line-height: 1.6; color: var(--text); }
-.depoimento-author { display: flex; align-items: center; gap: 12px; margin-top: auto; }
-.depoimento-avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: var(--tan);
-  flex: none;
-}
-.depoimento-author span { font-size: 13.5px; font-weight: 600; color: var(--text-muted); }
+.servico-full-card h3 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: 21px; color: var(--text); }
+.servico-full-card p { margin: 0; font-size: 15px; line-height: 1.7; color: var(--text); }
 
 /* ── Contato ─────────────────────────────────────────────── */
 .contato-row { max-width: var(--maxw); margin: 0 auto; display: flex; flex-wrap: wrap; gap: 48px; }
@@ -332,4 +345,16 @@ footer {
 .footer-brand { display: flex; align-items: center; gap: 12px; }
 .footer-logo { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; background: rgba(245, 239, 227, 0.2); }
 .footer-brand span { font-family: var(--f-display); font-weight: 600; font-size: 15px; }
-.footer-note { font-size: 13px; opacity: 0.85; }
+.footer-links { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; font-size: 13px; opacity: 0.9; }
+.footer-links a { color: var(--bg); }
+.footer-links a:hover { color: var(--text); }
+
+/* ── Política de Privacidade ─────────────────────────────── */
+.politica-page { min-height: 100vh; background: var(--bg); }
+.politica-inner { max-width: 760px; margin: 0 auto; padding: 56px 20px 80px; display: flex; flex-direction: column; gap: 20px; }
+.politica-back { font-size: 14px; font-weight: 600; color: var(--green); }
+.politica-inner h1 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: clamp(26px, 4vw, 34px); color: var(--text); }
+.politica-sub { margin: 0; font-size: 14px; color: var(--text-muted); }
+.politica-inner p { margin: 0; font-size: 15.5px; line-height: 1.75; color: var(--text); }
+.politica-inner h2 { margin: 20px 0 0; font-family: var(--f-display); font-weight: 600; font-size: 20px; color: var(--text); }
+.politica-updated { margin-top: 24px !important; font-size: 13px; color: var(--text-muted); }

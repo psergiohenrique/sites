@@ -6,7 +6,6 @@ import { WHATSAPP_URL } from "@/lib/whatsapp";
 const LINKS = [
   { href: "#quem-sou-eu", label: "Quem sou eu" },
   { href: "#servicos", label: "Serviços" },
-  { href: "#depoimentos", label: "Depoimentos" },
   { href: "#contato", label: "Contato" },
 ];
 
@@ -20,8 +19,8 @@ export default function Nav() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/assets/logo-main.png" alt="" className="nav-logo" />
           <span className="nav-brand-text">
-            <span className="nav-brand-name">Regiane Paula</span>
-            <span className="nav-brand-sub">Psicóloga</span>
+            <span className="nav-brand-name">Regiane D&apos;Paula</span>
+            <span className="nav-brand-sub">Psicóloga · CRP 06/100895</span>
           </span>
         </a>
 
