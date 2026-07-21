@@ -21,11 +21,14 @@ export default function QuemSouEu() {
         </p>
         <p>
           Sou psicóloga com formação em Terapia Cognitivo-Comportamental
-          (TCC). Ao longo da minha trajetória, me especializei em
+          (TCC), e ao longo da minha trajetória, me especializei em
           Neuropsicologia, com formação em Reabilitação Cognitiva pela
-          Faculdade de Medicina da Universidade de São Paulo (FMUSP),
-          atuando na avaliação de funções cognitivas em idosos no Instituto
-          de Psiquiatria do Hospital das Clínicas da FMUSP.
+          Faculdade de Medicina da Universidade de São Paulo (FMUSP). Essa
+          formação me deu uma base sólida para compreender os processos
+          cognitivos e seu funcionamento, conhecimento que aprofundei
+          atuando no Ambulatório de Hidrocefalia de Pressão Normal do
+          Instituto de Psiquiatria do Hospital das Clínicas da FMUSP
+          (IPq-HC-FMUSP), na avaliação de funções cognitivas em idosos.
         </p>
         <p>
           Fiz também pós-graduação em Sono pelo Hospital Israelita Albert

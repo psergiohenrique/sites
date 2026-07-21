@@ -18,6 +18,9 @@ export default function Hero() {
             <Link href="/quem-sou-eu" className="btn btn-outline">
               Conheça minha trajetória
             </Link>
+            <Link href="/servicos" className="btn btn-outline">
+              Serviços
+            </Link>
           </div>
         </div>
 

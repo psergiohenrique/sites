@@ -1,7 +1,6 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Reflexao from "@/components/Reflexao";
-import Credenciais from "@/components/Credenciais";
 import ServicosPrevia from "@/components/ServicosPrevia";
 import CtaFinal from "@/components/CtaFinal";
 import Contato from "@/components/Contato";
@@ -13,7 +12,6 @@ export default function Home() {
       <Nav />
       <Hero />
       <Reflexao />
-      <Credenciais />
       <ServicosPrevia />
       <CtaFinal />
       <Contato />

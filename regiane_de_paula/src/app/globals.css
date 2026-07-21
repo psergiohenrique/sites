@@ -187,11 +187,6 @@ img { display: block; max-width: 100%; }
 }
 .reflexao-credit { margin: 0; font-size: 13px; color: var(--text-muted); }
 
-/* ── Credenciais ─────────────────────────────────────────── */
-.credenciais-inner { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center; }
-.credenciais-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
-.credenciais-tags span { background: var(--tan); color: var(--text); font-size: 14px; font-weight: 600; padding: 10px 20px; border-radius: 100px; }
-
 /* ── Serviços prévia ─────────────────────────────────────── */
 .servicos-previa-grid {
   display: grid;

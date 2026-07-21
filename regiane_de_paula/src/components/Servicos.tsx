@@ -12,17 +12,19 @@ const SERVICOS = [
   {
     title: "TCC-I – Terapia Cognitivo-Comportamental para Insônia",
     paragraphs: [
-      "A TCC-I é um tratamento breve e estruturado, reconhecido como abordagem de primeira linha no tratamento da insônia, sem a necessidade de medicamentos na maioria dos casos.",
+      "A Terapia Cognitivo-Comportamental para Insônia (TCC-I) é um tratamento breve e estruturado, reconhecido como abordagem de primeira linha no tratamento da insônia, sem a necessidade de medicamentos na maioria dos casos.",
       "Seu objetivo é identificar e tratar os fatores comportamentais e cognitivos que mantêm a insônia, promovendo uma melhora consistente e duradoura na qualidade do sono.",
-      "A eficácia da TCC-I é comprovada cientificamente, independentemente da idade do paciente, do uso de medicação para dormir ou da presença de outras condições associadas. Costuma ser indicada também para quem deseja reduzir gradualmente o uso de medicação, sempre com acompanhamento do médico responsável.",
+      "A eficácia da TCC-I é comprovada cientificamente, e se mantém consistente independentemente da idade do paciente, do uso de medicação para dormir ou da presença de outras condições associadas. Entre os principais benefícios estão adormecer mais rápido, ter um sono de melhor qualidade e acordar menos vezes durante a noite.",
+      "Muitos pacientes buscam a TCC-I depois de anos usando medicação para dormir e sentindo necessidade de reduzir essa dependência. Os medicamentos agem diretamente nos sintomas, mas não têm como alvo os fatores comportamentais e cognitivos que mantêm a insônia. Por isso, a TCC-I costuma ser indicada também para quem deseja reduzir gradualmente o uso de medicação, sempre com acompanhamento do médico responsável.",
     ],
   },
   {
     title: "Avaliação Neuropsicológica",
     paragraphs: [
-      "A avaliação neuropsicológica é um processo estruturado que investiga o funcionamento cognitivo, incluindo memória, atenção, linguagem e funções executivas, buscando compreender como esses processos estão relacionados ao comportamento e ao dia a dia da pessoa.",
+      "A avaliação neuropsicológica é um processo estruturado que investiga o funcionamento cognitivo, incluindo memória, atenção, linguagem e funções executivas, entre outras funções, buscando compreender como esses processos estão relacionados ao comportamento e ao dia a dia da pessoa.",
       "É indicada em situações como queixas de memória, dificuldades de concentração, alterações cognitivas associadas ao envelhecimento, ou como parte da investigação de quadros neurológicos e psiquiátricos.",
-      "O processo envolve entrevistas, testes padronizados e cientificamente validados, e a elaboração de um relatório detalhado, com devolutiva clara sobre os resultados — servindo como base para orientações, encaminhamentos e planejamento de intervenções futuras.",
+      "O processo envolve entrevistas, aplicação de testes padronizados e cientificamente validados, e a elaboração de um relatório detalhado, com uma devolutiva clara sobre os resultados encontrados.",
+      "Mais do que identificar dificuldades, a avaliação neuropsicológica ajuda a entender o funcionamento cognitivo de cada pessoa em sua totalidade, servindo como base para orientações, encaminhamentos e planejamento de intervenções futuras, quando necessário.",
     ],
   },
 ];
@@ -34,9 +36,10 @@ export default function Servicos() {
         <p className="eyebrow">Serviços</p>
         <h1>Áreas de atuação</h1>
         <p>
-          Atendo adultos e idosos. Acredito que o cuidado em psicologia
-          funciona melhor quando é fundamentado em evidências científicas
-          e, ao mesmo tempo, adaptado à realidade de quem estou atendendo.
+          Acredito que o cuidado em psicologia funciona melhor quando é
+          fundamentado em evidências científicas e, ao mesmo tempo, adaptado
+          à realidade de quem estou atendendo. Atendo adultos e idosos.
+          Conheça abaixo as abordagens que utilizo em minha prática clínica.
         </p>
       </div>
 

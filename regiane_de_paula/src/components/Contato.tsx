@@ -6,10 +6,11 @@ export default function Contato() {
       <div className="contato-row">
         <div className="contato-copy">
           <p className="eyebrow">Contato</p>
-          <h2>Vamos conversar?</h2>
+          <h2>Vamos começar?</h2>
           <p>
-            Se você está pensando em iniciar um processo terapêutico ou tem
-            dúvidas sobre o atendimento, ficarei feliz em conversar com você.
+            Atendo adultos e idosos. Se você está pensando em iniciar um
+            processo terapêutico ou tem dúvidas sobre o atendimento, ficarei
+            feliz em te atender.
             Escolha o canal que for mais conveniente e entre em contato —
             retornarei o quanto antes.
           </p>

@@ -3,8 +3,7 @@ export default function CtaFinal() {
     <section className="cta-final">
       <div className="cta-final-inner">
         <p className="cta-final-quote">
-          Se você sente que é hora de começar, estou à disposição para
-          conversar.
+          Se você sente que é hora de começar, estou à disposição.
         </p>
         <a href="#contato" className="btn btn-cta-final">
           Entre em contato
