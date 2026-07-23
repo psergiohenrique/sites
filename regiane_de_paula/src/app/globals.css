@@ -91,7 +91,7 @@ img { display: block; max-width: 100%; }
 .nav-logo { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; flex: none; background: var(--tan); }
 .nav-brand-text { display: flex; flex-direction: column; line-height: 1.1; }
 .nav-brand-name { font-family: var(--f-display); font-weight: 600; font-size: 17px; color: var(--text); }
-.nav-brand-sub { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--green); }
+.nav-brand-sub { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--green); margin-top: 4px; }
 
 .nav-links {
   display: flex;
@@ -223,7 +223,6 @@ img { display: block; max-width: 100%; }
 
 @media (max-width: 760px) {
   .hero { padding: 40px 20px 48px; }
-  .nav-brand-sub { margin-top: 4px; }
 }
 
 /* ── Seções genéricas ────────────────────────────────────── */
