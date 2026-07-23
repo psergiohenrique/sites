@@ -10,9 +10,8 @@ export default function Contato() {
           <p>
             Atendo adultos e idosos. Se você está pensando em iniciar um
             processo terapêutico ou tem dúvidas sobre o atendimento, ficarei
-            feliz em te atender.
-            Escolha o canal que for mais conveniente e entre em contato —
-            retornarei o quanto antes.
+            feliz em conversar com você. Escolha o canal que for mais
+            conveniente e entre em contato, retornarei o quanto antes.
           </p>
 
           <div className="contato-links">

@@ -14,16 +14,26 @@ export default function Reflexao() {
         <div className="hero-rule" />
 
         <p className="body">
-          Assim como no bordado, também em nós há um avesso — pensamentos,
+          Assim como no bordado, também em nós há um avesso: pensamentos,
           sentimentos e histórias que nem sempre enxergamos com clareza, mas
-          que sustentam quem somos. É esse avesso que a psicoterapia ajuda a
-          revelar.
+          que sustentam quem somos. É justamente esse avesso que a
+          psicoterapia ajuda a revelar.
         </p>
         <p className="body">
-          Somos convidados na história de cada paciente: levamos preparo e
-          experiência, mas é o paciente quem conhece a própria vida. A
-          psicoterapia acontece quando há espaço para construir, juntos,
-          novas compreensões — sem silenciar sua voz.
+          Nós, psicólogos, precisamos nos lembrar de algo essencial: não
+          somos os únicos a ter sabedoria dentro do consultório. Somos
+          convidados na história de cada paciente. Levamos nosso preparo e
+          nossa experiência, mas é o paciente que conhece a própria vida, sua
+          trajetória, seus valores e o significado do que viveu.
+        </p>
+        <p className="body">
+          A psicoterapia não acontece quando o psicólogo assume o lugar de
+          quem tem todas as respostas. Ela acontece quando há espaço para
+          construir, junto, novas compreensões e possibilidades.
+        </p>
+        <p className="body">
+          Um bom processo terapêutico não silencia a voz do paciente: ele
+          ajuda essa voz a ser ouvida, inclusive por ele mesmo.
         </p>
         <p className="body" style={{ fontWeight: 500 }}>
           É com esse olhar que conduzo meu trabalho: unindo o que aprendi com

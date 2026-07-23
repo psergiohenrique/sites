@@ -223,6 +223,7 @@ img { display: block; max-width: 100%; }
 
 @media (max-width: 760px) {
   .hero { padding: 40px 20px 48px; }
+  .nav-brand-sub { margin-top: 4px; }
 }
 
 /* ── Seções genéricas ────────────────────────────────────── */
