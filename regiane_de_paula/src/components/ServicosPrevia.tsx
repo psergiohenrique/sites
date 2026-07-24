@@ -14,7 +14,7 @@ const PREVIEWS = [
   {
     title: "Avaliação Neuropsicológica",
     tagline:
-      "Investigação do funcionamento cognitivo — memória, atenção, linguagem e funções executivas.",
+      "Investigação do funcionamento cognitivo, memória, atenção, linguagem e funções executivas.",
   },
 ];
 
