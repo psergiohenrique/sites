@@ -3,9 +3,24 @@ import { ImageResponse } from 'next/og'
 export const runtime = 'nodejs'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
-export const alt = 'Mika Carui — Psicóloga Clínica | Terapia Integrativa'
 
-export default function Image() {
+async function getMetadata(locale: string) {
+  return ((await import(`../../../messages/${locale}.json`)).default as {
+    Metadata: { title: string; siteName: string; ogDescription: string }
+  }).Metadata
+}
+
+export const alt = 'Mika Carui — Psicóloga Clínica | Clinical Psychologist'
+
+export default async function Image({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  const t = await getMetadata(locale)
+  const isPt = locale === 'pt'
+
   return new ImageResponse(
     (
       <div
@@ -65,7 +80,7 @@ export default function Image() {
                 letterSpacing: '-0.01em',
               }}
             >
-              Mika Carui — Psicóloga Clínica
+              {t.siteName}
             </span>
           </div>
 
@@ -80,8 +95,17 @@ export default function Image() {
                 maxWidth: '900px',
               }}
             >
-              Sua mente merece&nbsp;
-              <span style={{ color: '#FF66C4' }}>leveza</span>.
+              {isPt ? (
+                <>
+                  Sua mente merece&nbsp;
+                  <span style={{ color: '#FF66C4' }}>leveza</span>.
+                </>
+              ) : (
+                <>
+                  Your mind deserves&nbsp;
+                  <span style={{ color: '#FF66C4' }}>ease</span>.
+                </>
+              )}
             </div>
             <div
               style={{
@@ -92,7 +116,7 @@ export default function Image() {
                 fontWeight: 400,
               }}
             >
-              Terapia integrativa — atendimento online e presencial.
+              {t.ogDescription}
             </div>
           </div>
 
@@ -112,7 +136,7 @@ export default function Image() {
                 letterSpacing: '0.08em',
               }}
             >
-              <span>ANSIEDADE · DEPRESSÃO · AUTOESTIMA</span>
+              <span>{isPt ? 'ANSIEDADE · DEPRESSÃO · AUTOESTIMA' : 'ANXIETY · DEPRESSION · SELF-ESTEEM'}</span>
             </div>
             <span style={{ fontSize: '14px', color: '#F0E4DC' }}>
               mikacarui.com

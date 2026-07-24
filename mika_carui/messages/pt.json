@@ -1,0 +1,113 @@
+{
+  "Metadata": {
+    "title": "Mika Carui — Psicóloga Clínica | Terapia Integrativa",
+    "description": "Psicóloga clínica especialista em terapia integrativa, ansiedade, depressão e autoestima. Atendimento online e presencial, com acolhimento e leveza.",
+    "keywords": [
+      "psicóloga",
+      "terapia integrativa",
+      "ansiedade",
+      "depressão",
+      "autoestima",
+      "psicoterapia online",
+      "Mika Carui"
+    ],
+    "ogDescription": "Terapia integrativa pra você sair da ansiedade e da autocrítica e viver com mais confiança. Atendimento online e presencial.",
+    "twitterDescription": "Terapia integrativa pra você sair da ansiedade e da autocrítica e viver com mais confiança.",
+    "siteName": "Mika Carui — Psicóloga Clínica"
+  },
+  "JsonLd": {
+    "businessName": "Mika Carui — Psicóloga Clínica",
+    "businessDescription": "Psicóloga clínica especialista em terapia integrativa, ansiedade, depressão e autoestima. Atendimento online e presencial.",
+    "areaServed": "Brasil",
+    "catalogName": "Áreas de atuação",
+    "ansiedadeName": "Ansiedade",
+    "ansiedadeDesc": "Ferramentas práticas pra acalmar a mente acelerada e recuperar o controle do seu dia a dia.",
+    "depressaoName": "Depressão",
+    "depressaoDesc": "Acolhimento sem julgamento pra ressignificar crenças limitantes e reencontrar sentido.",
+    "integrativaName": "Terapia Integrativa",
+    "integrativaDesc": "Um olhar único pra você, combinando abordagens conforme a sua história.",
+    "websiteDescription": "Site oficial de Mika Carui, psicóloga clínica."
+  },
+  "Nav": {
+    "brandAlt": "Mika Carui",
+    "tagline": "Terapeuta Integrativa",
+    "sobre": "Sobre",
+    "abordagem": "Abordagem",
+    "depoimentos": "Depoimentos",
+    "cta": "Agendar Agora",
+    "openMenu": "Abrir menu"
+  },
+  "Hero": {
+    "kicker": "Psicóloga Clínica · CRP 06/123456",
+    "titleLine1": "Sua mente",
+    "titleLine2": "merece",
+    "titleHighlight": "leveza",
+    "lead": "Terapia integrativa pra você sair da ansiedade e da autocrítica e viver com mais confiança. Atendimento online e presencial.",
+    "ctaPrimary": "Agendar Consulta",
+    "ctaSecondary": "Ver Depoimentos"
+  },
+  "Marquee": {
+    "words": ["Ansiedade", "Autoestima", "Depressão", "Relacionamentos", "Autoconhecimento"]
+  },
+  "Stats": {
+    "years": { "value": "8+", "label": "Anos de experiência" },
+    "patients": { "value": "300+", "label": "Pacientes acompanhadas" },
+    "recommend": { "value": "98%", "label": "Recomendam pra uma amiga" },
+    "rating": { "value": "4.9", "label": "Avaliação média" }
+  },
+  "Sobre": {
+    "eyebrow": "Quem sou eu",
+    "title": "Oi, eu sou a Mika",
+    "paragraph1": "Sou psicóloga clínica e acredito que terapia não precisa ser um lugar sério e distante — pode (e deve) ser um espaço acolhedor, humano e cheio de energia boa, mesmo quando o assunto dói.",
+    "paragraph2": "Trabalho com terapia integrativa, combinando técnicas de diferentes abordagens pra construir um processo que faça sentido pra sua história — não um molde pronto.",
+    "badgeValue": "8 anos",
+    "badgeLabel": "de experiência clínica",
+    "tagIntegrativa": "Terapia Integrativa",
+    "tagAnsiedade": "Ansiedade",
+    "tagDepressao": "Depressão"
+  },
+  "Abordagem": {
+    "eyebrow": "Como eu trabalho",
+    "title": "Cuidado que respeita seu tempo e sua história",
+    "services": [
+      {
+        "index": "01",
+        "title": "Ansiedade",
+        "desc": "Ferramentas práticas pra acalmar a mente acelerada e recuperar o controle do seu dia a dia."
+      },
+      {
+        "index": "02",
+        "title": "Depressão",
+        "desc": "Acolhimento sem julgamento pra ressignificar crenças limitantes e reencontrar sentido."
+      },
+      {
+        "index": "03",
+        "title": "Terapia Integrativa",
+        "desc": "Um olhar único pra você, combinando abordagens conforme a sua história."
+      }
+    ]
+  },
+  "Depoimentos": {
+    "eyebrow": "Quem já passou por aqui",
+    "title": "Depoimentos que aquecem o coração",
+    "items": [
+      { "quote": "Depois das sessões, aprendi a não brigar comigo mesma todo dia.", "name": "Ana P." },
+      { "quote": "Pela primeira vez sinto que entendo minha ansiedade, em vez de fugir dela.", "name": "Carla M." },
+      { "quote": "A Mika me ajudou a trocar autocrítica por autocompaixão de verdade.", "name": "Beatriz R." },
+      { "quote": "Terapia leve, sem julgamento e sem enrolação. Recomendo de olhos fechados.", "name": "Júlia T." },
+      { "quote": "Encontrei ferramentas reais pra lidar com os dias difíceis.", "name": "Fernanda L." }
+    ]
+  },
+  "CtaFinal": {
+    "title": "Vamos conversar?",
+    "text": "Atendimento online e presencial · sessões semanais ou quinzenais, no seu ritmo.",
+    "cta": "Falar no WhatsApp"
+  },
+  "Footer": {
+    "license": "CRP 06/123456",
+    "copyright": "© 2026"
+  },
+  "Whatsapp": {
+    "message": "Oi Mika! Vim pelo site e queria agendar uma consulta."
+  }
+}

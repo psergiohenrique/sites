@@ -1,0 +1,113 @@
+{
+  "Metadata": {
+    "title": "Mika Carui — Clinical Psychologist | Integrative Therapy",
+    "description": "Clinical psychologist specializing in integrative therapy, anxiety, depression and self-esteem. Online and in-person sessions, with warmth and ease.",
+    "keywords": [
+      "psychologist",
+      "integrative therapy",
+      "anxiety",
+      "depression",
+      "self-esteem",
+      "online psychotherapy",
+      "Mika Carui"
+    ],
+    "ogDescription": "Integrative therapy to help you move past anxiety and self-criticism and live with more confidence. Online and in-person sessions.",
+    "twitterDescription": "Integrative therapy to help you move past anxiety and self-criticism and live with more confidence.",
+    "siteName": "Mika Carui — Clinical Psychologist"
+  },
+  "JsonLd": {
+    "businessName": "Mika Carui — Clinical Psychologist",
+    "businessDescription": "Clinical psychologist specializing in integrative therapy, anxiety, depression and self-esteem. Online and in-person sessions.",
+    "areaServed": "Brazil",
+    "catalogName": "Areas of practice",
+    "ansiedadeName": "Anxiety",
+    "ansiedadeDesc": "Practical tools to calm a racing mind and take back control of your day.",
+    "depressaoName": "Depression",
+    "depressaoDesc": "Judgment-free support to reframe limiting beliefs and rediscover meaning.",
+    "integrativaName": "Integrative Therapy",
+    "integrativaDesc": "A unique approach for you, combining methods based on your own story.",
+    "websiteDescription": "Official website of Mika Carui, clinical psychologist."
+  },
+  "Nav": {
+    "brandAlt": "Mika Carui",
+    "tagline": "Integrative Therapist",
+    "sobre": "About",
+    "abordagem": "Approach",
+    "depoimentos": "Testimonials",
+    "cta": "Book Now",
+    "openMenu": "Open menu"
+  },
+  "Hero": {
+    "kicker": "Clinical Psychologist · CRP 06/123456",
+    "titleLine1": "Your mind",
+    "titleLine2": "deserves",
+    "titleHighlight": "ease",
+    "lead": "Integrative therapy to help you move past anxiety and self-criticism and live with more confidence. Online and in-person sessions.",
+    "ctaPrimary": "Book a Session",
+    "ctaSecondary": "See Testimonials"
+  },
+  "Marquee": {
+    "words": ["Anxiety", "Self-Esteem", "Depression", "Relationships", "Self-Knowledge"]
+  },
+  "Stats": {
+    "years": { "value": "8+", "label": "Years of experience" },
+    "patients": { "value": "300+", "label": "Patients supported" },
+    "recommend": { "value": "98%", "label": "Would recommend to a friend" },
+    "rating": { "value": "4.9", "label": "Average rating" }
+  },
+  "Sobre": {
+    "eyebrow": "About me",
+    "title": "Hi, I'm Mika",
+    "paragraph1": "I'm a clinical psychologist and I believe therapy doesn't have to be a serious, distant place — it can (and should) be a warm, human space full of good energy, even when the subject hurts.",
+    "paragraph2": "I work with integrative therapy, combining techniques from different approaches to build a process that makes sense for your story — not a ready-made template.",
+    "badgeValue": "8 years",
+    "badgeLabel": "of clinical experience",
+    "tagIntegrativa": "Integrative Therapy",
+    "tagAnsiedade": "Anxiety",
+    "tagDepressao": "Depression"
+  },
+  "Abordagem": {
+    "eyebrow": "How I work",
+    "title": "Care that respects your time and your story",
+    "services": [
+      {
+        "index": "01",
+        "title": "Anxiety",
+        "desc": "Practical tools to calm a racing mind and take back control of your day."
+      },
+      {
+        "index": "02",
+        "title": "Depression",
+        "desc": "Judgment-free support to reframe limiting beliefs and rediscover meaning."
+      },
+      {
+        "index": "03",
+        "title": "Integrative Therapy",
+        "desc": "A unique approach for you, combining methods based on your own story."
+      }
+    ]
+  },
+  "Depoimentos": {
+    "eyebrow": "People who've been here",
+    "title": "Testimonials that warm the heart",
+    "items": [
+      { "quote": "After the sessions, I learned to stop fighting with myself every day.", "name": "Ana P." },
+      { "quote": "For the first time I feel like I understand my anxiety, instead of running from it.", "name": "Carla M." },
+      { "quote": "Mika helped me trade self-criticism for real self-compassion.", "name": "Beatriz R." },
+      { "quote": "Light, judgment-free therapy, no beating around the bush. I recommend it with my eyes closed.", "name": "Júlia T." },
+      { "quote": "I found real tools for dealing with the hard days.", "name": "Fernanda L." }
+    ]
+  },
+  "CtaFinal": {
+    "title": "Shall we talk?",
+    "text": "Online and in-person sessions · weekly or biweekly, at your own pace.",
+    "cta": "Chat on WhatsApp"
+  },
+  "Footer": {
+    "license": "CRP 06/123456",
+    "copyright": "© 2026"
+  },
+  "Whatsapp": {
+    "message": "Hi Mika! I found you through the website and I'd like to book a session."
+  }
+}

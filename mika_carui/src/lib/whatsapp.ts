@@ -1,3 +1,5 @@
-export const WHATSAPP_URL =
-  "https://wa.me/5511975434251?text=" +
-  encodeURIComponent("Oi Mika! Vim pelo site e queria agendar uma consulta.");
+const PHONE = "5511975434251";
+
+export function whatsappUrl(message: string) {
+  return `https://wa.me/${PHONE}?text=${encodeURIComponent(message)}`;
+}

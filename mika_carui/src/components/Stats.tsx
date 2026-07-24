@@ -1,16 +1,19 @@
-const STATS = [
-  { value: "8+", label: "Anos de experiência" },
-  { value: "300+", label: "Pacientes acompanhadas" },
-  { value: "98%", label: "Recomendam pra uma amiga" },
-  { value: "4.9", label: "Avaliação média" },
-];
+import { useTranslations } from "next-intl";
 
 export default function Stats() {
+  const t = useTranslations("Stats");
+  const STATS = [
+    { key: "years", ...t.raw("years") },
+    { key: "patients", ...t.raw("patients") },
+    { key: "recommend", ...t.raw("recommend") },
+    { key: "rating", ...t.raw("rating") },
+  ] as { key: string; value: string; label: string }[];
+
   return (
     <section className="stats">
       <div className="stats-grid">
         {STATS.map((s) => (
-          <div key={s.label}>
+          <div key={s.key}>
             <div className="stat-value">{s.value}</div>
             <div className="stat-label">{s.label}</div>
           </div>

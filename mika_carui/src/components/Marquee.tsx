@@ -1,9 +1,9 @@
-const WORDS = ["Ansiedade", "Autoestima", "Depressão", "Relacionamentos", "Autoconhecimento"];
+import { useTranslations } from "next-intl";
 
-function Track() {
+function Track({ words }: { words: string[] }) {
   return (
     <span>
-      {WORDS.map((w, i) => (
+      {words.map((w, i) => (
         <span key={i}>
           {w} <em>✕</em>{" "}
         </span>
@@ -13,11 +13,14 @@ function Track() {
 }
 
 export default function Marquee() {
+  const t = useTranslations("Marquee");
+  const words = t.raw("words") as string[];
+
   return (
     <div className="marquee">
       <div className="marquee-track">
-        <Track />
-        <Track />
+        <Track words={words} />
+        <Track words={words} />
       </div>
     </div>
   );
