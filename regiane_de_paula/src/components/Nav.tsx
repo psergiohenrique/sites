@@ -7,6 +7,7 @@ import { WHATSAPP_URL } from "@/lib/whatsapp";
 const LINKS = [
   { href: "/quem-sou-eu", label: "Quem sou eu" },
   { href: "/servicos", label: "Serviços" },
+  { href: "/escalas-do-sono", label: "Escalas do Sono" },
   { href: "/#contato", label: "Contato" },
 ];
 

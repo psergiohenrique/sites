@@ -23,6 +23,8 @@ export default function Footer() {
             WhatsApp
           </a>
           <span>·</span>
+          <Link href="/escalas-do-sono">Escalas do Sono</Link>
+          <span>·</span>
           <Link href="/politica-de-privacidade">Política de Privacidade</Link>
         </div>
       </div>
