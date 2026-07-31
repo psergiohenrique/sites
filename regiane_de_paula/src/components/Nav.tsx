@@ -73,9 +73,9 @@ export default function Nav() {
 
         <button
           onClick={() => setMenuOpen((v) => !v)}
-          aria-label="Abrir menu"
+          aria-label={menuOpen ? "Fechar menu" : "Abrir menu"}
           aria-expanded={menuOpen}
-          className="nav-toggle"
+          className={`nav-toggle${menuOpen ? " open" : ""}`}
         >
           <span />
           <span />
