@@ -25,6 +25,8 @@ export default function Footer() {
           <span>·</span>
           <Link href="/escalas-do-sono">Escalas do Sono</Link>
           <span>·</span>
+          <Link href="/ebook-guia-dormir-melhor">E-book: Dormir Melhor</Link>
+          <span>·</span>
           <Link href="/politica-de-privacidade">Política de Privacidade</Link>
         </div>
       </div>
