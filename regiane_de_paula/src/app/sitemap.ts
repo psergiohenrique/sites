@@ -29,6 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
+      url: `${BASE}/material-de-apoio`,
+      lastModified: new Date('2026-08-14'),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
       url: `${BASE}/ebook-guia-dormir-melhor`,
       lastModified: new Date('2026-07-31'),
       changeFrequency: 'monthly',

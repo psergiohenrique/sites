@@ -8,6 +8,7 @@ const LINKS = [
   { href: "/quem-sou-eu", label: "Quem sou eu" },
   { href: "/servicos", label: "Serviços" },
   { href: "/escalas-do-sono", label: "Escalas do Sono" },
+  { href: "/material-de-apoio", label: "Material de Apoio" },
 ];
 
 export default function Nav() {
