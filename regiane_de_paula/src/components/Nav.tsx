@@ -33,7 +33,7 @@ export default function Nav() {
             </li>
           ))}
           <li>
-            <Link href="/#contato">Contato</Link>
+            <Link href="/ebook-guia-dormir-melhor">Ebook</Link>
           </li>
         </ul>
 
@@ -60,8 +60,8 @@ export default function Nav() {
               {l.label}
             </Link>
           ))}
-          <Link href="/#contato" onClick={() => setMenuOpen(false)}>
-            Contato
+          <Link href="/ebook-guia-dormir-melhor" onClick={() => setMenuOpen(false)}>
+            Ebook
           </Link>
           <a
             href={WHATSAPP_URL}
