@@ -26,7 +26,7 @@ export default function Hero() {
 
         <div className="hero-figure">
           <div className="hero-photo-frame">
-            <span className="placeholder">Foto profissional da Regiane</span>
+            <img src="/assets/regiane-hero.jpg" alt="Regiane D'Paula, psicóloga" />
           </div>
         </div>
       </div>
