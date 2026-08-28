@@ -240,13 +240,7 @@ img { display: block; max-width: 100%; }
   padding: 20px;
   text-align: center;
 }
-.ebook-promo-badge {
-  font-family: var(--f-body);
-  font-weight: 700;
-  font-size: 12.5px;
-  letter-spacing: 0.08em;
-  color: var(--green);
-}
+.ebook-promo-icon { width: 100%; height: 100%; object-fit: contain; }
 .ebook-promo-copy { flex: 2 1 360px; display: flex; flex-direction: column; gap: 12px; }
 .ebook-promo-copy h2 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: clamp(24px, 3.2vw, 32px); color: var(--text); }
 .ebook-promo-copy p { margin: 0; font-size: 15.5px; line-height: 1.7; color: var(--text); max-width: 520px; }
