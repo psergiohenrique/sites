@@ -32,15 +32,22 @@ const SERVICOS = [
 export default function Servicos() {
   return (
     <>
-      <div className="section-head">
-        <p className="eyebrow">Serviços</p>
-        <h1>Áreas de atuação</h1>
-        <p>
-          Acredito que o cuidado em psicologia funciona melhor quando é
-          fundamentado em evidências científicas e, ao mesmo tempo, adaptado
-          à realidade de quem estou atendendo. Atendo adultos e idosos.
-          Conheça abaixo as abordagens que utilizo em minha prática clínica.
-        </p>
+      <div className="sobre-row">
+        <div className="sobre-photo">
+          <div className="sobre-photo-frame">
+            <img src="/assets/regiane-videochamada.jpg" alt="Regiane D'Paula em atendimento" />
+          </div>
+        </div>
+        <div className="sobre-copy">
+          <p className="eyebrow">Serviços</p>
+          <h1>Áreas de atuação</h1>
+          <p>
+            Acredito que o cuidado em psicologia funciona melhor quando é
+            fundamentado em evidências científicas e, ao mesmo tempo, adaptado
+            à realidade de quem estou atendendo. Atendo adultos e idosos.
+            Conheça abaixo as abordagens que utilizo em minha prática clínica.
+          </p>
+        </div>
       </div>
 
       <div className="servicos-full-list">

@@ -16,6 +16,11 @@ export default function EbookGuiaDormirMelhor() {
       </div>
 
       <div className="ebook-card">
+        <img
+          src="/assets/ebook-capa.jpg"
+          alt="Capa do e-book Guia prático para dormir melhor"
+          className="ebook-card-icon"
+        />
         <div className="ebook-card-info">
           <span className="escala-sigla">E-BOOK</span>
           <h2>Guia prático para dormir melhor</h2>
