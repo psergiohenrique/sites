@@ -5,7 +5,7 @@ export default function QuemSouEu() {
     <div className="sobre-row">
       <div className="sobre-photo">
         <div className="sobre-photo-frame">
-          <span className="placeholder">Foto da Regiane</span>
+          <img src="/assets/regiane-quem-sou-eu.jpg" alt="Regiane D'Paula" />
         </div>
       </div>
 
