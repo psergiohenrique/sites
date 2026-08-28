@@ -6,7 +6,7 @@ export default function EbookCta() {
       <div className="wrap">
         <div className="ebook-promo">
           <div className="ebook-promo-figure">
-            <img src="/assets/ebook-download-icon.png" alt="" className="ebook-promo-icon" />
+            <img src="/assets/ebook-capa.jpg" alt="Capa do e-book Guia prático para dormir melhor" className="ebook-promo-icon" />
           </div>
           <div className="ebook-promo-copy">
             <p className="eyebrow">Material gratuito</p>
