@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   BC Tambores Decorativos
+   Identidade visual: creme #F6EFE6 + terracota #E8863A + verde #16716F
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  color-scheme: light;
+  --bg: #f6efe6;
+  --bg-alt: #efe4d6;
+  --ink: #1e1815;
+  --ink-muted: #4a3f39;
+  --ink-mute2: #6b5d55;
+  --teal: #16716f;
+  --teal-hover: #0f5453;
+  --orange: #e8863a;
+  --orange-hover: #d9762a;
+  --orange-soft: #f49b52;
+  --rust: #c25e1e;
+  --footer-bg: #16110f;
+  --whatsapp: #25d366;
+  --whatsapp-hover: #1ebe5a;
+
+  --font-display: var(--font-bricolage), sans-serif;
+  --font-body: var(--font-karla), sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+a {
+  color: var(--rust);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--teal);
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+::selection {
+  background: var(--orange-soft);
+  color: #fff;
+}
+
+.btn-whatsapp-nav:hover {
+  background: var(--teal-hover);
+}
+.btn-orcamento:hover {
+  background: var(--orange-hover);
+}
+.btn-galeria:hover {
+  border-color: var(--ink);
+}
+.btn-sob-medida:hover {
+  background: var(--teal);
+}
+.btn-contato:hover {
+  background: var(--orange-soft);
+}
+.btn-fab:hover {
+  background: var(--whatsapp-hover);
+}
+
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    min-height: auto !important;
+  }
+  .hero-copy {
+    padding: 48px 24px !important;
+    max-width: none !important;
+  }
+  .hero-image {
+    min-height: 360px;
+  }
+  .info-strip {
+    grid-template-columns: 1fr !important;
+  }
+  .info-strip > div {
+    border-right: none !important;
+    border-bottom: 1px solid rgba(246, 239, 230, 0.2);
+  }
+  nav.main-nav {
+    display: none !important;
+  }
+  header {
+    padding: 14px 20px !important;
+  }
+  section,
+  footer {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  h1 {
+    font-size: 44px !important;
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-auto-rows: 160px !important;
+  }
+  .gallery-grid figure {
+    grid-column: span 2 !important;
+    grid-row: span 1 !important;
+  }
+  .sob-medida-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .sob-medida-grid > div:first-child {
+    min-height: 320px !important;
+  }
+  .sob-medida-grid > div:last-child {
+    padding: 48px 24px !important;
+  }
+  .steps-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .atendimento-grid {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+  .contato-flex {
+    justify-content: center !important;
+    text-align: center;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
