@@ -232,18 +232,13 @@ img { display: block; max-width: 100%; }
 .conecte .eyebrow { color: #9A9A9A; }
 .conecte .section-head p { color: #BDBDBD; }
 .conecte-inner { max-width: 1150px; margin: 0 auto; }
-.conecte-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-.conecte-card {
-  display: flex; flex-direction: column; gap: 8px;
-  padding: 32px 28px; border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.18);
-  color: #FFFFFF;
-  transition: background 0.2s, color 0.2s;
+.conecte-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.conecte-banner { display: block; border-radius: 16px; overflow: hidden; transition: transform 0.2s; }
+.conecte-banner:hover { opacity: 1; transform: translateY(-4px); }
+.conecte-banner img { width: 100%; height: auto; aspect-ratio: 800 / 325; object-fit: cover; }
+@media (max-width: 760px) {
+  .conecte-grid { grid-template-columns: 1fr; }
 }
-.conecte-card:hover { opacity: 1; background: #FFFFFF; color: var(--dark); }
-.conecte-network { font-size: 28px; }
-.conecte-handle { font-size: 14px; opacity: 0.7; }
-.conecte-cta { margin-top: 12px; font-weight: 800; font-size: 13px; text-transform: uppercase; letter-spacing: 0.03em; }
 
 /* ── Páginas internas ────────────────────────────────────── */
 .page { padding: clamp(64px, 9vw, 120px) clamp(20px, 6vw, 64px); }

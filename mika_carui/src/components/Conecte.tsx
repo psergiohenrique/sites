@@ -14,10 +14,16 @@ export default function Conecte() {
         </div>
         <div className="conecte-grid">
           {SOCIAL.map((s) => (
-            <a key={s.key} href={s.href} target="_blank" rel="noopener noreferrer" className="conecte-card">
-              <span className="conecte-network title">{s.label}</span>
-              <span className="conecte-handle">{s.handle}</span>
-              <span className="conecte-cta">{t(`cta.${s.key}`)} →</span>
+            <a
+              key={s.key}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="conecte-banner"
+              aria-label={t(`cta.${s.key}`)}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={s.banner} alt={t(`cta.${s.key}`)} width={800} height={325} loading="lazy" />
             </a>
           ))}
         </div>
