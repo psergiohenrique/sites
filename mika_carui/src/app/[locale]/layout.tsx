@@ -123,24 +123,24 @@ export default async function LocaleLayout({
                         "@type": "Offer",
                         itemOffered: {
                           "@type": "Service",
-                          name: t("ansiedadeName"),
-                          description: t("ansiedadeDesc"),
+                          name: t("palestrasName"),
+                          description: t("palestrasDesc"),
                         },
                       },
                       {
                         "@type": "Offer",
                         itemOffered: {
                           "@type": "Service",
-                          name: t("depressaoName"),
-                          description: t("depressaoDesc"),
+                          name: t("cursosName"),
+                          description: t("cursosDesc"),
                         },
                       },
                       {
                         "@type": "Offer",
                         itemOffered: {
                           "@type": "Service",
-                          name: t("integrativaName"),
-                          description: t("integrativaDesc"),
+                          name: t("protocolosName"),
+                          description: t("protocolosDesc"),
                         },
                       },
                     ],

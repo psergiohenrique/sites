@@ -1,13 +1,10 @@
 import { setRequestLocale } from "next-intl/server";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
-import Marquee from "@/components/Marquee";
-import Stats from "@/components/Stats";
-import Sobre from "@/components/Sobre";
-import Galeria from "@/components/Galeria";
-import Abordagem from "@/components/Abordagem";
-import Depoimentos from "@/components/Depoimentos";
-import CtaFinal from "@/components/CtaFinal";
+import Palestras from "@/components/Palestras";
+import Banners from "@/components/Banners";
+import Produtos from "@/components/Produtos";
+import Conecte from "@/components/Conecte";
 import Footer from "@/components/Footer";
 
 export default async function Home({
@@ -22,13 +19,10 @@ export default async function Home({
     <>
       <Nav />
       <Hero />
-      <Marquee />
-      <Stats />
-      <Sobre />
-      <Galeria />
-      <Abordagem />
-      <Depoimentos />
-      <CtaFinal />
+      <Palestras />
+      <Banners />
+      <Produtos />
+      <Conecte />
       <Footer />
     </>
   );

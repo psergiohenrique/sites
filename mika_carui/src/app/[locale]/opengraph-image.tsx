@@ -10,7 +10,7 @@ async function getMetadata(locale: string) {
   }).Metadata
 }
 
-export const alt = 'Mika Carui — Psicóloga Clínica | Clinical Psychologist'
+export const alt = 'Mika Carui — Especialista em Desenvolvimento Humano'
 
 export default async function Image({
   params,
@@ -29,7 +29,7 @@ export default async function Image({
           height: '100%',
           display: 'flex',
           flexDirection: 'column',
-          backgroundColor: '#2A1D18',
+          backgroundColor: '#0A0A0A',
           position: 'relative',
           overflow: 'hidden',
         }}
@@ -41,7 +41,7 @@ export default async function Image({
             left: 0,
             right: 0,
             height: '6px',
-            backgroundColor: '#FF66C4',
+            backgroundColor: '#FFFFFF',
             display: 'flex',
           }}
         />
@@ -61,13 +61,13 @@ export default async function Image({
                 width: '48px',
                 height: '48px',
                 borderRadius: '10px',
-                backgroundColor: '#FF66C4',
+                backgroundColor: '#FFFFFF',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 fontSize: '26px',
                 fontWeight: 700,
-                color: '#FFFFFF',
+                color: '#0A0A0A',
               }}
             >
               M
@@ -76,7 +76,7 @@ export default async function Image({
               style={{
                 fontSize: '24px',
                 fontWeight: 700,
-                color: '#F7EFE5',
+                color: '#FFFFFF',
                 letterSpacing: '-0.01em',
               }}
             >
@@ -90,27 +90,25 @@ export default async function Image({
                 display: 'flex',
                 fontSize: '54px',
                 fontWeight: 700,
-                color: '#F7EFE5',
+                color: '#FFFFFF',
                 lineHeight: 1.1,
                 maxWidth: '900px',
               }}
             >
               {isPt ? (
                 <>
-                  Sua mente merece&nbsp;
-                  <span style={{ color: '#FF66C4' }}>leveza</span>.
+                  Especialista em desenvolvimento humano.
                 </>
               ) : (
                 <>
-                  Your mind deserves&nbsp;
-                  <span style={{ color: '#FF66C4' }}>ease</span>.
+                  Specialist in human development.
                 </>
               )}
             </div>
             <div
               style={{
                 fontSize: '20px',
-                color: '#F0E4DC',
+                color: '#D6D6D6',
                 lineHeight: 1.5,
                 maxWidth: '640px',
                 fontWeight: 400,
@@ -132,13 +130,13 @@ export default async function Image({
                 display: 'flex',
                 gap: '20px',
                 fontSize: '13px',
-                color: '#FFD1EC',
+                color: '#9A9A9A',
                 letterSpacing: '0.08em',
               }}
             >
-              <span>{isPt ? 'ANSIEDADE · DEPRESSÃO · AUTOESTIMA' : 'ANXIETY · DEPRESSION · SELF-ESTEEM'}</span>
+              <span>{isPt ? 'PALESTRAS · CURSOS · PROTOCOLOS' : 'TALKS · COURSES · PROTOCOLS'}</span>
             </div>
-            <span style={{ fontSize: '14px', color: '#F0E4DC' }}>
+            <span style={{ fontSize: '14px', color: '#D6D6D6' }}>
               mikacarui.com
             </span>
           </div>

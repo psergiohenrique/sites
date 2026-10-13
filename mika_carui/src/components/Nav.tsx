@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import { whatsappUrl } from "@/lib/whatsapp";
 
 export default function Nav() {
@@ -10,36 +10,33 @@ export default function Nav() {
   const t = useTranslations("Nav");
   const tw = useTranslations("Whatsapp");
   const locale = useLocale();
+  const pathname = usePathname();
   const otherLocale = locale === "pt" ? "en" : "pt";
-  const waUrl = whatsappUrl(tw("message"));
+  const waUrl = whatsappUrl(tw("eventos"));
 
   const LINKS = [
-    { href: "#sobre", label: t("sobre") },
-    { href: "#abordagem", label: t("abordagem") },
-    { href: "#depoimentos", label: t("depoimentos") },
+    { href: "/sobre", label: t("sobre") },
+    { href: "/cursos-e-protocolos", label: t("cursos") },
+    { href: "/#produtos", label: t("produtos") },
+    { href: "/#conecte", label: t("contato") },
   ];
 
   return (
     <header className="nav">
-      <a href="#topo" className="nav-brand" aria-label={t("brandAlt")}>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/assets/icon-mika-pink.png" alt="" className="nav-logo" />
-        <span className="nav-brand-text">
-          <span className="nav-brand-name">Mika Carui</span>
-          <span className="nav-brand-tagline">{t("tagline")}</span>
-        </span>
-      </a>
+      <Link href="/" className="nav-brand" aria-label={t("brandAlt")}>
+        MIKACARUI
+      </Link>
 
       <ul className="nav-links">
         {LINKS.map((l) => (
           <li key={l.href}>
-            <a href={l.href}>{l.label}</a>
+            <Link href={l.href}>{l.label}</Link>
           </li>
         ))}
       </ul>
 
       <div className="nav-cta-group">
-        <Link href="/" locale={otherLocale} className="nav-locale" aria-label={otherLocale === "en" ? "Switch to English" : "Mudar para português"}>
+        <Link href={pathname} locale={otherLocale} className="nav-locale" aria-label={otherLocale === "en" ? "Switch to English" : "Mudar para português"}>
           {otherLocale.toUpperCase()}
         </Link>
         <a href={waUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary nav-cta">
@@ -61,11 +58,11 @@ export default function Nav() {
       {menuOpen && (
         <div className="nav-mobile">
           {LINKS.map((l) => (
-            <a key={l.href} href={l.href} onClick={() => setMenuOpen(false)}>
+            <Link key={l.href} href={l.href} onClick={() => setMenuOpen(false)}>
               {l.label}
-            </a>
+            </Link>
           ))}
-          <Link href="/" locale={otherLocale} className="nav-locale" onClick={() => setMenuOpen(false)}>
+          <Link href={pathname} locale={otherLocale} className="nav-locale" onClick={() => setMenuOpen(false)}>
             {otherLocale === "en" ? "English" : "Português"}
           </Link>
           <a

@@ -1,24 +1,18 @@
 import { useTranslations } from "next-intl";
+import { SOCIAL } from "@/lib/social";
 
 export default function Footer() {
   const t = useTranslations("Footer");
-  const nav = useTranslations("Nav");
 
   return (
     <footer>
-      <div className="footer-brand">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/assets/icon-mika-white.png" alt="" className="footer-logo" />
-        <span className="footer-brand-text">
-          <span className="footer-brand-name">Mika Carui</span>
-          <span className="footer-brand-tagline">{nav("tagline")}</span>
-        </span>
-      </div>
+      <span className="footer-brand">MIKACARUI</span>
       <div className="footer-links">
-        <a href="https://instagram.com/mikacarui" target="_blank" rel="noopener noreferrer">
-          @mikacarui
-        </a>
-        <span>{t("license")}</span>
+        {SOCIAL.map((s) => (
+          <a key={s.key} href={s.href} target="_blank" rel="noopener noreferrer">
+            {s.label}
+          </a>
+        ))}
         <span>{t("copyright")}</span>
       </div>
     </footer>
