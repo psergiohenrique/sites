@@ -65,12 +65,12 @@ export default async function Image({
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                fontSize: '26px',
+                fontSize: '22px',
                 fontWeight: 700,
                 color: '#0A0A0A',
               }}
             >
-              M
+              MK
             </div>
             <span
               style={{
