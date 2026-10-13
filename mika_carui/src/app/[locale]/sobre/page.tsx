@@ -31,12 +31,22 @@ export default async function SobrePage({
     <>
       <Nav />
       <main className="page">
-        <article className="page-inner">
-          <span className="eyebrow">{t("eyebrow")}</span>
-          <h1 className="title page-title">{t("title")}</h1>
-          {paragraphs.map((p, i) => (
-            <p key={i}>{p}</p>
-          ))}
+        <article className="sobre-page">
+          <figure className="sobre-page-figure">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/assets/mika-brown-1.jpeg" alt={t("photoAlt")} className="sobre-page-photo" />
+            <figcaption className="sobre-page-badge">
+              <span className="title">Mireile Carui</span>
+              <span>{t("badge")}</span>
+            </figcaption>
+          </figure>
+          <div className="sobre-page-copy">
+            <span className="eyebrow">{t("eyebrow")}</span>
+            <h1 className="title page-title">{t("title")}</h1>
+            {paragraphs.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+          </div>
         </article>
       </main>
       <Conecte />

@@ -1,9 +1,10 @@
 import type { MetadataRoute } from 'next'
+import { PRODUTOS } from '@/lib/produtos'
 
 const BASE = 'https://mikacarui.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const paths = ['', '/sobre', '/cursos-e-protocolos']
+  const paths = ['', '/sobre', '/cursos-e-protocolos', ...PRODUTOS.map((p) => `/produtos/${p.slug}`)]
 
   return paths.flatMap((path) => {
     const alternates = {

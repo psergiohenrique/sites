@@ -51,7 +51,9 @@
       "Sou especialista em desenvolvimento humano. Acredito que crescer não precisa ser um processo sério e distante — pode (e deve) ser acolhedor, humano e cheio de energia boa, mesmo quando o assunto dói.",
       "Meu trabalho é ajudar pessoas a destravarem seu potencial: desenvolver autoconhecimento, inteligência emocional, comunicação e liderança de si mesmas. Uno ciência do comportamento humano e ferramentas práticas pra transformar consciência em atitude — no dia a dia, nas relações e na carreira.",
       "Hoje levo esse olhar pra cursos, protocolos e palestras em empresas, ajudando pessoas e equipes a se desenvolverem com mais consciência."
-    ]
+    ],
+    "photoAlt": "Mireile Carui, a Mika",
+    "badge": "Especialista em Desenvolvimento Humano"
   },
   "Footer": {
     "copyright": "© 2026"
@@ -60,7 +62,8 @@
     "message": "Oi Mika! Vim pelo site e queria falar com você.",
     "eventos": "Oi Mika! Vim pelo site e gostaria de falar sobre uma palestra/evento corporativo.",
     "catalogo": "Oi Mika! Vim pelo site e gostaria de receber o catálogo de produtos.",
-    "cursos": "Oi Mika! Vim pelo site e queria saber mais sobre os cursos e protocolos."
+    "cursos": "Oi Mika! Vim pelo site e queria saber mais sobre os cursos e protocolos.",
+    "produto": "Oi Mika! Vim pelo site e tenho interesse no produto: "
   },
   "Palestras": {
     "eyebrow": "Palestras e eventos corporativos",
@@ -90,22 +93,9 @@
   "Produtos": {
     "eyebrow": "Produtos",
     "title": "Materiais pra sua jornada",
-    "cta": "Saiba mais",
     "catalogo": "Ver catálogo completo",
-    "items": [
-      {
-        "title": "Produto 1",
-        "desc": "Descrição do produto em breve."
-      },
-      {
-        "title": "Produto 2",
-        "desc": "Descrição do produto em breve."
-      },
-      {
-        "title": "Produto 3",
-        "desc": "Descrição do produto em breve."
-      }
-    ]
+    "cta": "Ver produto",
+    "itemTitle": "Dia {n}"
   },
   "Conecte": {
     "eyebrow": "Redes sociais",
@@ -140,6 +130,17 @@
         "title": "Protocolo 1",
         "desc": "Descrição em breve."
       }
+    ]
+  },
+  "Produto": {
+    "eyebrow": "Produto",
+    "back": "Todos os produtos",
+    "comprar": "Comprar",
+    "outros": "Veja também",
+    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraphs": [
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
     ]
   }
 }
