@@ -1,113 +1,145 @@
 {
   "Metadata": {
-    "title": "Mika Carui — Psicóloga Clínica | Terapia Integrativa",
-    "description": "Psicóloga clínica especialista em terapia integrativa, ansiedade, depressão e autoestima. Atendimento online e presencial, com acolhimento e leveza.",
+    "title": "Mika Carui — Especialista em Desenvolvimento Humano",
+    "description": "Mireile Carui (Mika) — especialista em desenvolvimento humano. Palestras, eventos corporativos, cursos e protocolos.",
     "keywords": [
-      "psicóloga",
-      "terapia integrativa",
-      "ansiedade",
-      "depressão",
-      "autoestima",
-      "psicoterapia online",
-      "Mika Carui"
+      "desenvolvimento humano",
+      "palestras",
+      "eventos corporativos",
+      "cursos",
+      "protocolos",
+      "Mika Carui",
+      "Mireile Carui"
     ],
-    "ogDescription": "Terapia integrativa pra você sair da ansiedade e da autocrítica e viver com mais confiança. Atendimento online e presencial.",
-    "twitterDescription": "Terapia integrativa pra você sair da ansiedade e da autocrítica e viver com mais confiança.",
-    "siteName": "Mika Carui — Psicóloga Clínica"
+    "ogDescription": "Especialista em desenvolvimento humano. Palestras, eventos corporativos, cursos e protocolos.",
+    "twitterDescription": "Especialista em desenvolvimento humano. Palestras, eventos corporativos, cursos e protocolos.",
+    "siteName": "Mika Carui"
   },
   "JsonLd": {
-    "businessName": "Mika Carui — Psicóloga Clínica",
-    "businessDescription": "Psicóloga clínica especialista em terapia integrativa, ansiedade, depressão e autoestima. Atendimento online e presencial.",
+    "businessName": "Mika Carui — Especialista em Desenvolvimento Humano",
+    "businessDescription": "Mireile Carui (Mika), especialista em desenvolvimento humano. Palestras, eventos corporativos, cursos e protocolos.",
     "areaServed": "Brasil",
-    "catalogName": "Áreas de atuação",
-    "ansiedadeName": "Ansiedade",
-    "ansiedadeDesc": "Ferramentas práticas pra acalmar a mente acelerada e recuperar o controle do seu dia a dia.",
-    "depressaoName": "Depressão",
-    "depressaoDesc": "Acolhimento sem julgamento pra ressignificar crenças limitantes e reencontrar sentido.",
-    "integrativaName": "Terapia Integrativa",
-    "integrativaDesc": "Um olhar único pra você, combinando abordagens conforme a sua história.",
-    "websiteDescription": "Site oficial de Mika Carui, psicóloga clínica."
+    "catalogName": "Serviços",
+    "palestrasName": "Palestras e eventos corporativos",
+    "palestrasDesc": "Palestras e workshops sobre saúde emocional, autoconhecimento e desenvolvimento humano.",
+    "cursosName": "Cursos",
+    "cursosDesc": "Conteúdos estruturados pra aplicar no dia a dia, no seu ritmo.",
+    "protocolosName": "Protocolos",
+    "protocolosDesc": "Protocolos práticos de desenvolvimento humano.",
+    "websiteDescription": "Site oficial de Mika Carui, especialista em desenvolvimento humano."
   },
   "Nav": {
-    "brandAlt": "Mika Carui",
-    "tagline": "Terapeuta Integrativa",
+    "brandAlt": "Mika Carui — página inicial",
     "sobre": "Sobre",
-    "abordagem": "Abordagem",
-    "depoimentos": "Depoimentos",
-    "cta": "Agendar Agora",
+    "cursos": "Cursos e Protocolos",
+    "produtos": "Produtos",
+    "contato": "Contato",
+    "cta": "Palestras e Eventos",
     "openMenu": "Abrir menu"
   },
   "Hero": {
-    "kicker": "Psicóloga Clínica · CRP 06/123456",
-    "titleLine1": "Sua mente",
-    "titleLine2": "merece",
-    "titleHighlight": "leveza",
-    "lead": "Terapia integrativa pra você sair da ansiedade e da autocrítica e viver com mais confiança. Atendimento online e presencial.",
-    "ctaPrimary": "Agendar Consulta",
-    "ctaSecondary": "Ver Depoimentos"
-  },
-  "Marquee": {
-    "words": ["Ansiedade", "Autoestima", "Depressão", "Relacionamentos", "Autoconhecimento"]
-  },
-  "Stats": {
-    "years": { "value": "8+", "label": "Anos de experiência" },
-    "patients": { "value": "300+", "label": "Pacientes acompanhadas" },
-    "recommend": { "value": "98%", "label": "Recomendam pra uma amiga" },
-    "rating": { "value": "4.9", "label": "Avaliação média" }
+    "kicker": "Mireile Carui",
+    "titleLine1": "Especialista em",
+    "titleHighlight": "desenvolvimento humano",
+    "lead": "Conhecimento, ferramentas e acolhimento pra você e sua equipe evoluírem com mais consciência, leveza e confiança."
   },
   "Sobre": {
+    "metaTitle": "Sobre — Mika Carui",
     "eyebrow": "Quem sou eu",
-    "title": "Oi, eu sou a Mika",
-    "paragraph1": "Sou psicóloga clínica e acredito que terapia não precisa ser um lugar sério e distante — pode (e deve) ser um espaço acolhedor, humano e cheio de energia boa, mesmo quando o assunto dói.",
-    "paragraph2": "Trabalho com terapia integrativa, combinando técnicas de diferentes abordagens pra construir um processo que faça sentido pra sua história — não um molde pronto.",
-    "badgeValue": "8 anos",
-    "badgeLabel": "de experiência clínica",
-    "tagIntegrativa": "Terapia Integrativa",
-    "tagAnsiedade": "Ansiedade",
-    "tagDepressao": "Depressão"
-  },
-  "Abordagem": {
-    "eyebrow": "Como eu trabalho",
-    "title": "Cuidado que respeita seu tempo e sua história",
-    "services": [
-      {
-        "index": "01",
-        "title": "Ansiedade",
-        "desc": "Ferramentas práticas pra acalmar a mente acelerada e recuperar o controle do seu dia a dia."
-      },
-      {
-        "index": "02",
-        "title": "Depressão",
-        "desc": "Acolhimento sem julgamento pra ressignificar crenças limitantes e reencontrar sentido."
-      },
-      {
-        "index": "03",
-        "title": "Terapia Integrativa",
-        "desc": "Um olhar único pra você, combinando abordagens conforme a sua história."
-      }
+    "title": "Oi, eu sou a Mireile — mas pode me chamar de Mika",
+    "paragraphs": [
+      "Sou especialista em desenvolvimento humano. Acredito que crescer não precisa ser um processo sério e distante — pode (e deve) ser acolhedor, humano e cheio de energia boa, mesmo quando o assunto dói.",
+      "Meu trabalho é ajudar pessoas a destravarem seu potencial: desenvolver autoconhecimento, inteligência emocional, comunicação e liderança de si mesmas. Uno ciência do comportamento humano e ferramentas práticas pra transformar consciência em atitude — no dia a dia, nas relações e na carreira.",
+      "Hoje levo esse olhar pra cursos, protocolos e palestras em empresas, ajudando pessoas e equipes a se desenvolverem com mais consciência."
     ]
-  },
-  "Depoimentos": {
-    "eyebrow": "Quem já passou por aqui",
-    "title": "Depoimentos que aquecem o coração",
-    "items": [
-      { "quote": "Depois das sessões, aprendi a não brigar comigo mesma todo dia.", "name": "Ana P." },
-      { "quote": "Pela primeira vez sinto que entendo minha ansiedade, em vez de fugir dela.", "name": "Carla M." },
-      { "quote": "A Mika me ajudou a trocar autocrítica por autocompaixão de verdade.", "name": "Beatriz R." },
-      { "quote": "Terapia leve, sem julgamento e sem enrolação. Recomendo de olhos fechados.", "name": "Júlia T." },
-      { "quote": "Encontrei ferramentas reais pra lidar com os dias difíceis.", "name": "Fernanda L." }
-    ]
-  },
-  "CtaFinal": {
-    "title": "Vamos conversar?",
-    "text": "Atendimento online e presencial · sessões semanais ou quinzenais, no seu ritmo.",
-    "cta": "Falar no WhatsApp"
   },
   "Footer": {
-    "license": "CRP 06/123456",
     "copyright": "© 2026"
   },
   "Whatsapp": {
-    "message": "Oi Mika! Vim pelo site e queria agendar uma consulta."
+    "message": "Oi Mika! Vim pelo site e queria falar com você.",
+    "eventos": "Oi Mika! Vim pelo site e gostaria de falar sobre uma palestra/evento corporativo.",
+    "catalogo": "Oi Mika! Vim pelo site e gostaria de receber o catálogo de produtos.",
+    "cursos": "Oi Mika! Vim pelo site e queria saber mais sobre os cursos e protocolos."
+  },
+  "Palestras": {
+    "eyebrow": "Palestras e eventos corporativos",
+    "title": "Leve a Mika pra sua empresa",
+    "text": "Palestras e workshops sobre saúde emocional, autoconhecimento e desenvolvimento humano, pensados pra realidade do seu time.",
+    "cta": "Contatar para eventos"
+  },
+  "Banners": {
+    "label": "Destaques",
+    "prev": "Banner anterior",
+    "next": "Próximo banner",
+    "slides": [
+      {
+        "title": "Banner 1",
+        "text": "Espaço reservado para arte do banner."
+      },
+      {
+        "title": "Banner 2",
+        "text": "Espaço reservado para arte do banner."
+      },
+      {
+        "title": "Banner 3",
+        "text": "Espaço reservado para arte do banner."
+      }
+    ]
+  },
+  "Produtos": {
+    "eyebrow": "Produtos",
+    "title": "Materiais pra sua jornada",
+    "cta": "Saiba mais",
+    "catalogo": "Ver catálogo completo",
+    "items": [
+      {
+        "title": "Produto 1",
+        "desc": "Descrição do produto em breve."
+      },
+      {
+        "title": "Produto 2",
+        "desc": "Descrição do produto em breve."
+      },
+      {
+        "title": "Produto 3",
+        "desc": "Descrição do produto em breve."
+      }
+    ]
+  },
+  "Conecte": {
+    "eyebrow": "Redes sociais",
+    "title": "Conecte-se comigo",
+    "text": "Conteúdo sobre desenvolvimento humano, saúde emocional e bastidores — escolha onde prefere me acompanhar.",
+    "cta": {
+      "instagram": "Seguir no Instagram",
+      "youtube": "Inscrever-se no YouTube",
+      "tiktok": "Seguir no TikTok",
+      "facebook": "Curtir no Facebook"
+    }
+  },
+  "Cursos": {
+    "metaTitle": "Cursos e Protocolos — Mika Carui",
+    "eyebrow": "Aprenda comigo",
+    "title": "Cursos e protocolos",
+    "intro": "Conteúdos estruturados pra você aplicar no seu dia a dia, no seu ritmo.",
+    "cta": "Quero saber mais",
+    "items": [
+      {
+        "index": "01",
+        "title": "Curso 1",
+        "desc": "Descrição em breve."
+      },
+      {
+        "index": "02",
+        "title": "Curso 2",
+        "desc": "Descrição em breve."
+      },
+      {
+        "index": "03",
+        "title": "Protocolo 1",
+        "desc": "Descrição em breve."
+      }
+    ]
   }
 }
