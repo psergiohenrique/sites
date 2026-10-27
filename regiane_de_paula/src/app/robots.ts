@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://regianepsicologa.com.br/sitemap.xml',
-    host: 'https://regianepsicologa.com.br',
+    sitemap: 'https://www.rp-psicologia.com.br/sitemap.xml',
+    host: 'https://www.rp-psicologia.com.br',
   }
 }

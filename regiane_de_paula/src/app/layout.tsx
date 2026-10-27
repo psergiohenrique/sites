@@ -35,14 +35,14 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Regiane Paula" }],
   creator: "Regiane Paula",
-  metadataBase: new URL("https://regianepsicologa.com.br"),
+  metadataBase: new URL("https://www.rp-psicologia.com.br"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://regianepsicologa.com.br",
+    url: "https://www.rp-psicologia.com.br",
     title: "Regiane Paula — Psicóloga | Atendimento online",
     description:
       "Terapia Cognitivo-Comportamental, Neuropsicologia e Transtornos do Sono — atendimento 100% online, com sigilo e escuta verdadeira.",
@@ -83,11 +83,11 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "ProfessionalService",
-                  "@id": "https://regianepsicologa.com.br/#business",
+                  "@id": "https://www.rp-psicologia.com.br/#business",
                   name: "Regiane Paula — Psicóloga",
                   description:
                     "Psicóloga especialista em Terapia Cognitivo-Comportamental, Neuropsicologia e Transtornos do Sono. Atendimento 100% online.",
-                  url: "https://regianepsicologa.com.br",
+                  url: "https://www.rp-psicologia.com.br",
                   areaServed: "Online — todo o Brasil",
                   hasOfferCatalog: {
                     "@type": "OfferCatalog",
@@ -125,12 +125,12 @@ export default function RootLayout({
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://regianepsicologa.com.br/#website",
-                  url: "https://regianepsicologa.com.br",
+                  "@id": "https://www.rp-psicologia.com.br/#website",
+                  url: "https://www.rp-psicologia.com.br",
                   name: "Regiane Paula — Psicóloga",
                   description: "Site oficial de Regiane Paula, psicóloga.",
                   publisher: {
-                    "@id": "https://regianepsicologa.com.br/#business",
+                    "@id": "https://www.rp-psicologia.com.br/#business",
                   },
                   inLanguage: "pt-BR",
                 },

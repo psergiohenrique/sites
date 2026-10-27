@@ -117,7 +117,7 @@ export default function Image() {
               <span>ATENDIMENTO 100% ONLINE</span>
             </div>
             <span style={{ fontSize: '14px', color: '#EDE3D2' }}>
-              regianepsicologa.com.br
+              www.rp-psicologia.com.br
             </span>
           </div>
         </div>
