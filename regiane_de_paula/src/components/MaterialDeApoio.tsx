@@ -18,6 +18,18 @@ const MATERIAIS = [
     file: "Preparando_se_para_Sessao_de_Terapia.pdf",
   },
   {
+    tipo: "FICHA",
+    title: "Lista de Verificação da Ansiedade de Leahy",
+    desc: "Avaliação dos sentimentos da semana para observar a intensidade de sinais de ansiedade e acompanhar como eles mudam ao longo do tempo.",
+    file: "Lista_Verificacao_Ansiedade_Leahy.pdf",
+  },
+  {
+    tipo: "EXERCÍCIO",
+    title: "Roda da Vida",
+    desc: "Exercício de autoconhecimento para olhar, de uma só vez, o equilíbrio entre as diferentes áreas da sua vida neste momento.",
+    file: "Roda_da_Vida.pdf",
+  },
+  {
     tipo: "TEXTO",
     title: "Pensar Rápido, Pensar Devagar",
     desc: "Um texto sobre os dois modos do nosso pensamento, o automático e o reflexivo, e como equilibrá-los com mais gentileza.",
